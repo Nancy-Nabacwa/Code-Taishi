@@ -1,5 +1,7 @@
 import Landingpage  from "./Landing";
 import Podcast from "./Podcast";
+import Blogs from "./Blogs";
+
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 
@@ -17,6 +19,7 @@ const App =()=>{
         } />
 
         <Route path="/Podcast" element={<Podcast/>}/>
+        <Route path="/Blogs" element={<Blogs/>}/>
         
 
         </Routes>

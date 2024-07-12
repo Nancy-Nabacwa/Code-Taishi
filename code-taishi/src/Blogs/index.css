@@ -1,0 +1,102 @@
+.modal-content {
+    background-color: #aaa7cb;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+    display: flex;
+
+  }
+  .modal-content h2 {
+    margin-top: 0;
+    font-size: 30px;
+  }
+  .modal-content form {
+    margin-top: 50px;
+    padding: 50px;
+  }
+  .modal-content label {
+    display: block;
+    margin-bottom: 10px;
+  }
+
+
+  .modal {
+    display: none;
+    position: fixed;
+    top: -8%;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+
+  .blog-div{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 4%;
+}
+
+.about-book-text{
+    font-family: 
+    "irish-glover";
+    width: 80%;
+    font-size: 1.5rem;
+    margin-top: 20%;
+}
+
+.blog-heading{
+  margin-bottom: -15%;
+}
+.blog{
+  margin-top: 6%;
+}
+
+button{
+    background-color: red;
+    width: 20%;
+    height: 9%;
+    border: none;
+    border-radius: 35px;
+    font-size: 29px;
+    text-shadow: 3px;
+    color: antiquewhite;
+
+}
+body{
+    background-color:rgb(240, 240, 248) 
+}
+
+.article-cards{
+  display: flex;
+  gap: 4%;
+  flex-direction: row;
+  
+
+}
+.book-cover{
+  border: none;
+  border-radius: 40px;
+  margin-top: 40px;
+  margin-left: 50px;
+}
+#theme-1{
+  border: #aaa7cb;
+  border-radius: 40px;
+}
+.theme-three{
+  border: 3px;
+  border-radius: 4opx;
+  
+}
+.theme-one-text{
+  font-size: 1.4rem;
+  font-family: 'Times New Roman', Times, serif;
+  border: solid;
+  padding: 3px;
+  margin: 2px 2px;
+
+}
+.theme-two{
+  
+}
