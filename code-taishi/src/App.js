@@ -1,4 +1,9 @@
 
+import Landingpage  from "./Landing";
+import Podcast from "./Podcast";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+
+
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Videos from "./Videos";
 import Navbar from "./Navbar";
@@ -18,10 +23,13 @@ const App =()=>{
 
           </>
         } />
+
+        <Route path="/Podcast" element={<Podcast/>}/>
         
 
         </Routes>
       </Router>
+      
       
       
     </div>
