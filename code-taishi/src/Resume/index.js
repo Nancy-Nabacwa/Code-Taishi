@@ -1,8 +1,10 @@
 import './index.css'
+import Navbar from '../Navbar';
 
 const Resume = () =>{
     return(
         <div>
+            <Navbar />
             <h1 id='heading'>MEET <label id='the'>the</label> TEAM</h1>
 
             <div className='team'>
