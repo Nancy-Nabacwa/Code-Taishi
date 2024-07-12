@@ -1,5 +1,6 @@
 import Landingpage  from "./Landing";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import Resume from "./Resume";
 
 
 
@@ -14,7 +15,11 @@ const App =()=>{
             <Landingpage/>
           </>
         } />
-        
+        <Route
+path="/AboutUs" element={
+  <Resume />
+}
+        />
 
         </Routes>
       </Router>
