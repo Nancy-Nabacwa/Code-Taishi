@@ -77,11 +77,23 @@ function Blogs(){
           The legacy of colonialism and the challenges of transitioning to a more equitable society have 
           left many Kenyans vulnerable to poverty and economic instability
 
-            </p>
+          </p> 
+        </div>
+
+        <div className='review-questions'>
+        <h1 className="h1Tag">Review Questions</h1>
+            <p>
+           1. Did you know who Trevor Noah was before reading his memoir? If yes, what did you expect from the book? Did the book live up to your expectations, or not?
+           2.Noah begins the book about being thrown from a moving car. Why do you think he chose to begin his narrative with this anecdote?
+
+
+          </p> 
+        </div>
+
+        
             <button className='cancel-btn' onClick={()=>setShowModal (false)}>
             Cancel</button>
 
-        </div>
 
 
         </div>
