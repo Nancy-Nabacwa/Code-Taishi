@@ -3,7 +3,7 @@ import './index.css'
 import React, { useState, useEffect } from 'react';
 import { Squash as HamburgerIcon } from 'hamburger-react';
 import { motion, AnimatePresence } from 'framer-motion';
-import logo from '../Assets/logo.png'
+import logo from '../Assets/logo.png';
 import { IoMdClose } from "react-icons/io";
 import { BrowserRouter, Link } from 'react-router-dom';
 
@@ -40,7 +40,7 @@ const Navbar = () => {
       <Link to="/Videos" className='text-link' activeClassName="active-link">
         <div className='link'>Videos</div>
       </Link>
-      <Link to="/Podcasts" className='text-link' activeClassName="active-link">
+      <Link to="/Podcast" className='text-link' activeClassName="active-link">
         <div className='link'>Podcasts</div>
       </Link>
       <Link to="/Blogs" className='text-link' activeClassName="active-link">
@@ -71,7 +71,7 @@ const Navbar = () => {
       <Link to="/Videos" className='text-link'>
         <div className='link'>Videos</div>
       </Link>
-      <Link to="/Podcasts" className='text-link'>
+      <Link to="/Podcast" className='text-link'>
         <div className='link'>Podcasts</div>
       </Link>
       <Link to="/Blogs" className='text-link'>
