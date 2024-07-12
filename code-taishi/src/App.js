@@ -1,7 +1,12 @@
+
 import Landingpage  from "./Landing";
 import Podcast from "./Podcast";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
+
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import Videos from "./Videos";
+import Navbar from "./Navbar";
 
 
 
@@ -11,8 +16,11 @@ const App =()=>{
       <Router>
         <Routes>
         <Route exact path="/" element={
-          <>          
-            <Landingpage/>
+          <> 
+          <Navbar/>         
+            {/* <Landingpage/> */}
+            <Videos/>
+
           </>
         } />
 
