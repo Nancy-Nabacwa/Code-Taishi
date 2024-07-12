@@ -1,8 +1,11 @@
 import './index.css'
+import Article from '../Article';
+
 import { useState } from 'react';
 // import {Link} from 'react-router-dom';
 import Navbar from '../Navbar';
 import bornAcrimeBlog from '../Assets/bornAcrimeBlog.jpg';
+// import Article from '../Article';
 
 
 function Blogs(){
@@ -137,6 +140,12 @@ function Blogs(){
           </div> 
 
       </div>
+
+
+
+
+
+      <Article/>
      
             
     </div>
