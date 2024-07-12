@@ -17,7 +17,7 @@ const Videos = () => {
         <div id="vids1">
           <div className="part1">
           
-          <p>Who Built Pinterest </p>
+          <p className="video-title">Who Built Pinterest </p>
 
           <a href="https://www.loom.com/share/6ea4062e94204312b73fea716862031e">
               <img
@@ -31,7 +31,7 @@ const Videos = () => {
 
           <div className="part2">
       
-            <p>How Pinterest Was Developed </p>
+            <p className="video-title">How Pinterest Was Developed </p>
            
             <a href="https://www.loom.com/share/d44aac0bc3d641cd9533e4c89e9c4f02">
               <img
@@ -45,7 +45,7 @@ const Videos = () => {
 
           <div className="part3">
          
-            <p>Use Case and Impact</p>
+            <p className="video-title">Use Case and Impact</p>
            
             <a href="https://www.loom.com/share/b99c2f6934024a609ce84a24417a6497">
               <img
@@ -60,7 +60,7 @@ const Videos = () => {
 
         <div id="vids2">
           <div className="part4">
-            <p>
+            <p className="video-title">
                 Revenue Generation
               </p>
             
@@ -76,7 +76,7 @@ const Videos = () => {
 
           <div className="part5">
            
-              <p>
+              <p className="video-title">
                 Key Features of Pinterest
             
             </p>
@@ -92,7 +92,7 @@ const Videos = () => {
 
           <div className="part6">
             
-              <p>Pros and Cons</p>
+              <p className="video-title">Pros and Cons</p>
             
             <a href="https://www.loom.com/share/bf82a9eb5cbe44eda57165a81b628088">
               <img

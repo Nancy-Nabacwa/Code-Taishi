@@ -6,7 +6,7 @@
   font-size: 60px;
   margin-top: -0.5%;
   font-family: "Irish Grover", serif;
-  
+
   /* text-align: center; */
 }
 .container {
@@ -16,7 +16,6 @@
   font-family: "Karma", sans-serif;
   margin-top: -1%;
   color: black;
-  
 }
 #vids1 {
   display: flex;
@@ -35,21 +34,20 @@
 }
 #videos {
   font-family: "Irish Grover", serif;
-  /* color: #E33333;  */
+
   color: #fff;
   margin-left: 2%;
 }
 #thumbnail {
   border-radius: 20px;
   background-color: #02476e;
-}  
+}
 
 .part1 {
   background-color: #02476e;
   height: 130px;
   border-radius: 25px;
   padding: 2.5%;
-
 }
 .part2 {
   background-color: #02476e;
@@ -89,37 +87,37 @@
   #vids2 {
     display: block;
   }
-  .part1{
+  .part1 {
     margin-top: 3%;
     height: 150px;
     width: 200px;
     margin-left: 10%;
   }
-  .part2{
+  .part2 {
     margin-top: 8%;
     height: 175px;
     width: 200px;
     margin-left: 10%;
   }
-  .part3{
+  .part3 {
     margin-top: 8%;
     height: 150px;
     width: 200px;
     margin-left: 10%;
   }
-  .part4{
+  .part4 {
     margin-top: 8%;
     height: 150px;
     width: 200px;
     margin-left: 10%;
   }
-  .part5{
+  .part5 {
     margin-top: 8%;
     height: 150px;
     width: 200px;
     margin-left: 10%;
   }
-  .part6{
+  .part6 {
     margin-top: 8%;
     height: 150px;
     width: 200px;
@@ -133,37 +131,37 @@
   #vids2 {
     display: block;
   }
-  .part1{
+  .part1 {
     margin-top: 3%;
     height: 150px;
     width: 200px;
     margin-left: 14%;
   }
-  .part2{
+  .part2 {
     margin-top: 8%;
     height: 175px;
     width: 200px;
     margin-left: 14%;
   }
-  .part3{
+  .part3 {
     margin-top: 8%;
     height: 150px;
     width: 200px;
     margin-left: 14%;
   }
-  .part4{
+  .part4 {
     margin-top: 8%;
     height: 150px;
     width: 200px;
     margin-left: 14%;
   }
-  .part5{
+  .part5 {
     margin-top: 8%;
     height: 150px;
     width: 200px;
     margin-left: 14%;
   }
-  .part6{
+  .part6 {
     margin-top: 8%;
     height: 150px;
     width: 200px;
@@ -174,42 +172,42 @@
   #vids1 {
     display: flex;
     flex-direction: column;
-    gap:3%;
+    gap: 3%;
   }
   #vids2 {
     display: block;
   }
-  .part1{
+  .part1 {
     margin-top: 3%;
     height: 150px;
     width: 200px;
     margin-left: 14%;
   }
-  .part2{
+  .part2 {
     margin-top: 8%;
     height: 175px;
     width: 200px;
     margin-left: 14%;
   }
-  .part3{
+  .part3 {
     margin-top: 8%;
     height: 150px;
     width: 200px;
     margin-left: 14%;
   }
-  .part4{
+  .part4 {
     margin-top: 8%;
     height: 150px;
     width: 200px;
     margin-left: 14%;
   }
-  .part5{
+  .part5 {
     margin-top: 8%;
     height: 150px;
     width: 200px;
     margin-left: 14%;
   }
-  .part6{
+  .part6 {
     margin-top: 8%;
     height: 150px;
     width: 200px;
@@ -225,163 +223,193 @@
   }
   .video-text {
     width: 80%;
-    margin-left: 13%;
+    margin-left: 10%;
   }
- 
-  .part1{
+  #videos-title {
+    margin-left: 5%;
+  }
+
+  .part1 {
     margin-top: 3%;
     height: 150px;
     width: 200px;
-    margin-left: 24%;
+    margin-left: 22%;
   }
-  .part2{
+  .part2 {
     margin-top: 8%;
     height: 175px;
     width: 200px;
-    margin-left: 24%;
+    margin-left: 22%;
   }
-  .part3{
+  .part3 {
     margin-top: 8%;
     height: 160px;
     width: 200px;
-    margin-left: 24%;
+    margin-left: 22%;
   }
-  .part4{
-    margin-top: 8%;
-    height: 150px;
-    width: 200px;
-    margin-left: 24%;
-  }
-  .part5{
-    margin-top: 8%;
-    height: 150px;
-    width: 200px;
-    margin-left: 24%;
-  }
-  .part6{
+  .part4 {
     margin-top: 8%;
     height: 150px;
     width: 200px;
     margin-left: 22%;
   }
-  
+  .part5 {
+    margin-top: 8%;
+    height: 150px;
+    width: 200px;
+    margin-left: 22%;
+  }
+  .part6 {
+    margin-top: 8%;
+    height: 150px;
+    width: 200px;
+    margin-left: 22%;
+  }
 }
+
+
 @media screen and (min-width: 681px) and (max-width: 780px) {
-    #vids1{
-      display: block;
-       }
-       #vids2{
-      display: block;
-          }
-          
-          .part1{
-            margin-top: 3%;
-            height: 150px;
-            width: 200px;
-            margin-left: 28%;
-          }
-          .part2{
-            margin-top: 8%;
-            height: 175px;
-            width: 200px;
-            margin-left: 28%;
-          }
-          .part3{
-            margin-top: 8%;
-            height: 160px;
-            width: 200px;
-            margin-left: 28%;
-          }
-          .part4{
-            margin-top: 8%;
-            height: 150px;
-            width: 200px;
-            margin-left: 28%;
-          }
-          .part5{
-            margin-top: 8%;
-            height: 150px;
-            width: 200px;
-            margin-left: 28%;
-          }
-          .part6{
-            margin-top: 8%;
-            height: 150px;
-            width: 200px;
-            margin-left: 28%;
-          }
-          
-}
-@media screen and (min-width: 820px) and (max-width: 920px) {
-    #vids1{
-        display: block;
-       }
-       #vids2{
-           display: block;
-          }
-          .video-text {
-            width: 70%;
-            margin-left: 1;
-          }
-          .part1{
-            margin-top: 3%;
-            height: 150px;
-            width: 200px;
-            margin-left: 28%;
-          }
-          .part2{
-            margin-top: 8%;
-            height: 170px;
-            width: 200px;
-            margin-left: 28%;
-          }
-          .part3{
-            margin-top: 8%;
-            height: 150px;
-            width: 200px;
-            margin-left: 28%;
-          }
-          .part4{
-            margin-top: 8%;
-            height: 150px;
-            width: 200px;
-            margin-left: 28%;
-          }
-          .part5{
-            margin-top: 8%;
-            height: 150px;
-            width: 200px;
-            margin-left: 28%;
-          }
-          .part6{
-            margin-top: 8%;
-            height: 150px;
-            width: 200px;
-            margin-left: 28%;
-          }
-}
-@media screen and (min-width: 921px) and (max-width: 1024px) {
-  #vids1{
-    margin-top: -1%;
-    margin-left: -2%;
+  #vids1 {
+    display: block;
   }
-  #vids2{
-    margin-top: 1%;
-    margin-left: -2%;
+  #vids2 {
+    display: block;
   }
-  .video-text{
-    margin-top: -2%;
+
+  .part1 {
+    margin-top: 3%;
+    height: 150px;
+    width: 200px;
+    margin-left: 26%;
   }
   .part2 {
-    height: 155px;
+    margin-top: 8%;
+    height: 175px;
+    width: 200px;
+    margin-left: 26%;
+  }
+  .part3 {
+    margin-top: 8%;
+    height: 160px;
+    width: 200px;
+    margin-left: 26%;
+  }
+  .part4 {
+    margin-top: 8%;
+    height: 150px;
+    width: 200px;
+    margin-left: 26%;
+  }
+  .part5 {
+    margin-top: 8%;
+    height: 150px;
+    width: 200px;
+    margin-left: 26%;
+  }
+  .part6 {
+    margin-top: 8%;
+    height: 150px;
+    width: 200px;
+    margin-left: 26%;
+  }
+}
+
+@media screen and (min-width: 820px) and (max-width: 920px) {
+  #vids1 {
+    display: block;
+  }
+  #vids2 {
+    display: block;
+  }
+  .video-text {
+    width: 70%;
+    margin-left: 1;
+  }
+  .part1 {
+    margin-top: 3%;
+    height: 150px;
+    width: 200px;
+    margin-left: 28%;
+  }
+  .part2 {
+    margin-top: 8%;
+    height: 170px;
+    width: 200px;
+    margin-left: 28%;
+  }
+  .part3 {
+    margin-top: 8%;
+    height: 150px;
+    width: 200px;
+    margin-left: 28%;
+  }
+  .part4 {
+    margin-top: 8%;
+    height: 150px;
+    width: 200px;
+    margin-left: 28%;
+  }
+  .part5 {
+    margin-top: 8%;
+    height: 150px;
+    width: 200px;
+    margin-left: 28%;
+  }
+  .part6 {
+    margin-top: 8%;
+    height: 150px;
+    width: 200px;
+    margin-left: 28%;
+  }
+}
+@media screen and (min-width: 921px) and (max-width: 1024px) {
+  #vids1 {
+    margin-top: 1%;
+    margin-left: -2%;
+    gap: 7%;
+  }
+  #vids2 {
+    margin-top: 2%;
+    margin-left: -2%;
+    gap: 7%;
+  }
+  .video-text {
+    margin-top: -2%;
+  }
+  .video-title {
+    margin-top: -1%;
+  }
+  .part1 {
+    height: 120px;
+    width: 200px;
+  }
+  .part2 {
+    height: 124px;
     border-radius: 25px;
+  }
+  .part3 {
+    height: 120px;
+    width: 200px;
+  }
+  .part4 {
+    height: 120px;
+    width: 200px;
+  }
+  .part5 {
+    margin-left: 1%;
+    height: 120px;
+    width: 200px;
+  }
+  .part6 {
+    height: 120px;
+    width: 200px;
   }
 }
 @media screen and (min-width: 1025px) and (max-width: 1280px) {
-  #vids1{
+  #vids1 {
     margin-left: 1%;
   }
-  #vids2{
+  #vids2 {
     margin-left: 1%;
   }
 }
