@@ -3,7 +3,7 @@ import './index.css'
 import React, { useState, useEffect } from 'react';
 import { Squash as HamburgerIcon } from 'hamburger-react';
 import { motion, AnimatePresence } from 'framer-motion';
-import logo from '../Assets/logo.png'
+import logo from '../Assets/logo.png';
 import { IoMdClose } from "react-icons/io";
 import { BrowserRouter, Link } from 'react-router-dom';
 
